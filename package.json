@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/chat.ts"
+  },
   "engines": {
-    "node": "18.x"
+    "node": ">=20.x"
   },
   "dependencies": {
     "@vercel/node": "^5.5.28"
